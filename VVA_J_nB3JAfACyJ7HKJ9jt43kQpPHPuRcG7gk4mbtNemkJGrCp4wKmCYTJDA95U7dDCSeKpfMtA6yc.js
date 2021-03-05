@@ -1,5 +1,5 @@
 let url = location.href;
-let fgnc = url.substr( 57 );;
+let fgnc = url.substr( 60 );;
 function Main() {
    if (fgnc == "Function_Setting") {
       $('#Main_Title').html('Setting');
