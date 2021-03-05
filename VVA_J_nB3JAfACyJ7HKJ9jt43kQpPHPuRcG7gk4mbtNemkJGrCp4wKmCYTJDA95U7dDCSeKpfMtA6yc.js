@@ -9,5 +9,9 @@ if (fgnc == "Function_Setting") {
 
 } else {
    $('#Main_Title').html('Search');
-   $('#Main_Menu').html('検索結果に一致するデータが取得できませんでした');
+   $('#Main_Menu').html('
+<div class="s_bar" align="center">
+<h4>検索結果に一致するデータが取得できませんでした</h4>
+</div>
+');
 }
