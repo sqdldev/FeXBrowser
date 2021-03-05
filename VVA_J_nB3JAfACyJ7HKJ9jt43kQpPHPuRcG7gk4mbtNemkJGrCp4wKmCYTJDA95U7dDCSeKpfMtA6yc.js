@@ -5,7 +5,8 @@ if (fgnc == "Function_Setting") {
    $('#Main_Menu').html(' ');
 } else if (fgnc == "ツクツクボウシ" && fgnc == "つくつくぼうし") {
    $('#Main_Title').html('Search');
-   $('#Main_Menu').html('<div class="s_bar" align="center">
+   $('#Main_Menu').html('
+<div class="s_bar" align="center">
 <h3 align="left">&#12288;ツクツクボウシ</h3>
 <h5 align="left" class="Home_p">　昆虫</h5>
 <img align="center" width="200px" src="img/28488525742287558213585485.jpg">
