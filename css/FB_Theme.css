@@ -1,6 +1,10 @@
 body {
 	background-color: #F4F4F4;
 	color: #ABABAB;
+        user-select: none;
+	-moz-user-select: none;
+	-webkit-user-select: none;
+	-ms-user-select: none;
 }
 a {
 	text-decoration:none;
