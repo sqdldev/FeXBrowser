@@ -8,6 +8,10 @@ if (fgnc == "Function_Setting") {
    $('#Site_Name').html('FeX Browser - Search あ');
    $('#Main_Title').html('Search');
    $('#Main_Menu').html('<div class="s_bar" align="center"><h3 align="left">　あ</h3><h5 align="left" class="Home_p">　平仮名</h5><hr size="3"/><h5>・五十音図ア行の第1音。五母音の一。後舌の開母音。</h5><h5>・平仮名「あ」は「安」の草体、片仮名「ア」は「阿」の偏から変化したもの。</h5><h5 align="left" class="Home_p">　国語辞書より</h5></div>');
+} else if (fgnc == "%E4%BA%9E"　|| fgnc == "%E4%BA%9C") {
+   $('#Site_Name').html('FeX Browser - Search ' + fgnc);
+   $('#Main_Title').html('Search');
+   $('#Main_Menu').html(' ');
 } else if (fgnc == 'RollingSkyEvolution' || fgnc == 'Rolling+Sky+Evolution' || fgnc == '%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%A8%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3' || fgnc == '%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%A8%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3') {
    $('#Site_Name').html('FeX Browser - Search ' + fgnc);
    $('#Main_Title').html('Search');
