@@ -11,7 +11,7 @@ if (fgnc == "Function_Setting") {
 } else if (fgnc == "%E4%BA%9E"　|| fgnc == "%E4%BA%9C") {
    $('#Site_Name').html('FeX Browser - Search ' + fgnc);
    $('#Main_Title').html('Search');
-   $('#Main_Menu').html('<div class="s_bar" align="center"><h3 align="left">　亜 (亞)</h3><h5 align="left" class="Home_p">　漢字</h5><hr size="3"/><h5>1. つ（次）ぐ。準じる。第二番目。「亜熱帯」「亜流」 2. 無機酸で酸素原子が少ない。「亜硫酸」 3. 「亜細亜(アジア)」の略。「亜州」「東亜」 4. 外国語の音訳に用いる。「亜米利加(アメリカ)」「亜爾然丁(アルゼンチン)」5. 生物学で、生物分類上の基本単位である門・綱・目・科・属・種などの、それぞれの下位単位を表す語。</h5><h5 align="left" class="Home_p">　国語辞書より</h5></div>');
+   $('#Main_Menu').html('<div class="s_bar" align="center"><h3 align="left">　亜 (亞)</h3><h5 align="left" class="Home_p">　漢字</h5><hr size="3"/><h5><p>1. つ（次）ぐ。準じる。第二番目。「亜熱帯」「亜流」 </p><p>2. 無機酸で酸素原子が少ない。「亜硫酸」 </p><p>3. 「亜細亜(アジア)」の略。「亜州」「東亜」 </p><p>4. 外国語の音訳に用いる。「亜米利加(アメリカ)」「亜爾然丁(アルゼンチン)」</p><p>5. 生物学で、生物分類上の基本単位である門・綱・目・科・属・種などの、それぞれの下位単位を表す語。</p></h5><h5 align="left" class="Home_p">　国語辞書より</h5></div>');
 } else if (fgnc == 'RollingSkyEvolution' || fgnc == 'Rolling+Sky+Evolution' || fgnc == '%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%A8%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3' || fgnc == '%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%BB%E3%82%B9%E3%82%AB%E3%82%A4%E3%82%A8%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3') {
    $('#Site_Name').html('FeX Browser - Search ' + fgnc);
    $('#Main_Title').html('Search');
