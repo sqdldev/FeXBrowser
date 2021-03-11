@@ -2,16 +2,17 @@
 
 let url = location.href;
 let fgnc = url.substr( 60 );
-let Bookmark_1 = 0;
-let Bookmark_2 = 0;
-let Bookmark_3 = 0;
-let Bookmark_4 = 0;
-let Bookmark_5 = 0;
-let Bookmark_6 = 0;
-let Bookmark_7 = 0;
-let Bookmark_8 = 0;
-let Bookmark_9 = 0;
-let Bookmark_10 = 0;
+let fgac = url.substr( 7 );
+let Bookmark_1 = $.cookie('History_1');
+let Bookmark_2 = $.cookie('History_2');
+let Bookmark_3 = $.cookie('History_3');
+let Bookmark_4 = $.cookie('History_4');
+let Bookmark_5 = $.cookie('History_5');
+let Bookmark_6 = $.cookie('History_6');
+let Bookmark_7 = $.cookie('History_7');
+let Bookmark_8 = $.cookie('History_8');
+let Bookmark_9 = $.cookie('History_9');
+let Bookmark_10 = $.cookie('History_10');
 let Bookmark_11 = 0;
 let Bookmark_12 = 0;
 let Bookmark_13 = 0;
@@ -29,6 +30,15 @@ if (fgnc == "Function_Setting") {
    $('#Site_Name').html('FeX Browser - Setting');
    $('#Main_Title').html('Setting');
    $('#Main_Menu').html(' ');
+} else if (fgac == "https:/") {
+   if (history_1 == "") {
+      $.cookie('History_1', fgnc, { expires: 30, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+   } else if (history_1 !== "" && history_2 == "") {
+      $.cookie('History_2', fgnc, { expires: 30, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+   }
+   $('#Site_Name').html('FeX Browser - Bookmark');
+   $('#Main_Title').html('Bookmark');
+   $('#Main_Menu').html('ブックマークに追加しました');
 } else if (fgnc == "Function_Bookmark") {
    $('#Site_Name').html('FeX Browser - Bookmark');
    $('#Main_Title').html('Bookmark');
