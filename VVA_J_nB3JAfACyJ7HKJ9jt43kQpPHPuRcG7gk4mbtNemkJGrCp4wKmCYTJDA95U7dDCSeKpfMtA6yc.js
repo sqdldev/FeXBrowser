@@ -13,16 +13,16 @@ let Bookmark_7 = $.cookie('History_7');
 let Bookmark_8 = $.cookie('History_8');
 let Bookmark_9 = $.cookie('History_9');
 let Bookmark_10 = $.cookie('History_10');
-let Bookmark_11 = 0;
-let Bookmark_12 = 0;
-let Bookmark_13 = 0;
-let Bookmark_14 = 0;
-let Bookmark_15 = 0;
-let Bookmark_16 = 0;
-let Bookmark_17 = 0;
-let Bookmark_18 = 0;
-let Bookmark_19 = 0;
-let Bookmark_20 = 0;
+let Bookmark_11 = $.cookie('History_11');
+let Bookmark_12 = $.cookie('History_12');
+let Bookmark_13 = $.cookie('History_13');
+let Bookmark_14 = $.cookie('History_14');
+let Bookmark_15 = $.cookie('History_15');
+let Bookmark_16 = $.cookie('History_16');
+let Bookmark_17 = $.cookie('History_17');
+let Bookmark_18 = $.cookie('History_18');
+let Bookmark_19 = $.cookie('History_19');
+let Bookmark_20 = $.cookie('History_20');
 
 // データベース
 
@@ -31,10 +31,11 @@ if (fgnc == "Function_Setting") {
    $('#Main_Title').html('Setting');
    $('#Main_Menu').html(' ');
 } else if (fgac == "https:/") {
-   if (history_1 == "") {
+   if (typeof history_1 == "undefined") {
       $.cookie('History_1', fgnc, { expires: 30, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
-   } else if (history_1 !== "" && history_2 == "") {
-      $.cookie('History_2', fgnc, { expires: 30, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+   } else if (typeof history_1 !== "undefined" && typeof history_2 == "undefined") {
+      $.cookie('History_2', history_1, { expires: 30, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+      $.cookie('History_1', fgnc, { expires: 30, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
    }
    $('#Site_Name').html('FeX Browser - Bookmark');
    $('#Main_Title').html('Bookmark');
