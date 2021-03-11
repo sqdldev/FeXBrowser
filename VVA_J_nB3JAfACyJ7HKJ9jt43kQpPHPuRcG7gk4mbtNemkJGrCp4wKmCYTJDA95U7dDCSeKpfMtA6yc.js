@@ -5,8 +5,7 @@ let fgnc = url.substr( 60 );;
 let history_1 = " ";
 let history_2 = " ";
 let history_3 = " ";
-let history_setting = 0;
-history_setting = $.cookie('History_setting_s');;
+let history_setting = history_setting = $.cookie('History_setting_s');
 if (fgnc !== '' || fgnc !== "Function_History" || fgnc !== "Function_Setting" || fgnc !== "Function_Bookmark") {
    history_1 = fgnc;
    history_2 = history_1;
