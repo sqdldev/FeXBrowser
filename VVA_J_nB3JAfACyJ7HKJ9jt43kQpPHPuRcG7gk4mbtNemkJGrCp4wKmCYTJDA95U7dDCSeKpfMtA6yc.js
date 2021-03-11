@@ -2,36 +2,26 @@
 
 let url = location.href;
 let fgnc = url.substr( 60 );
-let history_1 = " ";
-let history_2 = " ";
-let history_3 = " ";
-let history_setting = 0;
-history_setting = $.cookie('History_setting_s');
-if (fgnc !== '' || fgnc !== "Function_History" || fgnc !== "Function_Setting" || fgnc !== "Function_Bookmark") {
-   history_3 = history_2;
-   history_2 = history_1;
-   history_1 = fgnc;
-   $.cookie('history_o', 'history_1', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
-   $.cookie('history_t', 'history_2', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
-   $.cookie('history_th', 'history_3', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
-   history_1 = $.cookie('History_o');
-   history_2 = $.cookie('History_t');
-   history_3 = $.cookie('History_th');
-}
-if (fgnc == "Function_History") {
-   history_1 = $.cookie('History_o');
-   history_2 = $.cookie('History_t');
-   history_3 = $.cookie('History_th');
-}
-if (typeof history_1 == "undefined") {
-   history_1 = " ";
-}
-if (typeof history_2 == "undefined") {
-   history_2 = " ";
-}
-if (typeof history_3 == "undefined") {
-   history_3 = " ";
-}
+let Bookmark_1 = 0;
+let Bookmark_2 = 0;
+let Bookmark_3 = 0;
+let Bookmark_4 = 0;
+let Bookmark_5 = 0;
+let Bookmark_6 = 0;
+let Bookmark_7 = 0;
+let Bookmark_8 = 0;
+let Bookmark_9 = 0;
+let Bookmark_10 = 0;
+let Bookmark_11 = 0;
+let Bookmark_12 = 0;
+let Bookmark_13 = 0;
+let Bookmark_14 = 0;
+let Bookmark_15 = 0;
+let Bookmark_16 = 0;
+let Bookmark_17 = 0;
+let Bookmark_18 = 0;
+let Bookmark_19 = 0;
+let Bookmark_20 = 0;
 
 // データベース
 
@@ -39,10 +29,10 @@ if (fgnc == "Function_Setting") {
    $('#Site_Name').html('FeX Browser - Setting');
    $('#Main_Title').html('Setting');
    $('#Main_Menu').html(' ');
-} else if (fgnc == "Function_History" && fgnc !== "false") {
-   $('#Site_Name').html('FeX Browser - History');
-   $('#Main_Title').html('History');
-   $('#Main_Menu').html('<div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_1 + '">　' + history_1 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_2 + '">　' + history_2 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_3 + '">　' + history_3 + '</a></h4></div><br> </br>');
+} else if (fgnc == "Function_Bookmark") {
+   $('#Site_Name').html('FeX Browser - Bookmark');
+   $('#Main_Title').html('Bookmark');
+   $('#Main_Menu').html('<div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + Bookmark_1 + '">　' + Bookmark_1 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + Bookmark_2 + '">　' + Bookmark_2 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + Bookmark_3 + '">　' + Bookmark_3 + '</a></h4></div><br> </br>');
 } else if (fgnc == "%E3%81%82") {
    $('#Site_Name').html('FeX Browser - Search');
    $('#Main_Title').html('Search');
