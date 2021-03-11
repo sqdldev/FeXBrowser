@@ -18,6 +18,11 @@ if (fgnc !== '' || fgnc !== "Function_History" || fgnc !== "Function_Setting" ||
    history_2 = $.cookie('History_t');
    history_3 = $.cookie('History_th');
 }
+if (fgnc == "Function_History") {
+   history_1 = $.cookie('History_o');
+   history_2 = $.cookie('History_t');
+   history_3 = $.cookie('History_th');
+}
 if (typeof history_1 == "undefined") {
    history_1 = " ";
 }
