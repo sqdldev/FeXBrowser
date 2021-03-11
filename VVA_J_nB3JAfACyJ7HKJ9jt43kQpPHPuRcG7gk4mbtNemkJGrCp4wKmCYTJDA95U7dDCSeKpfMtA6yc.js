@@ -19,6 +19,10 @@ if (fgnc == "Function_Setting") {
    $('#Site_Name').html('FeX Browser - Setting');
    $('#Main_Title').html('Setting');
    $('#Main_Menu').html(' ');
+} else if (fgnc == "Function_History") {
+   $('#Site_Name').html('FeX Browser - History');
+   $('#Main_Title').html('History');
+   $('#Main_Menu').html('<div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_1 + '">　' + history_1 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_2 + '">　' + history_2 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_3 + '">　' + history_3 + '</a></h4></div><br> </br>');
 } else if (fgnc == "%E3%81%82") {
    $('#Site_Name').html('FeX Browser - Search');
    $('#Main_Title').html('Search');
