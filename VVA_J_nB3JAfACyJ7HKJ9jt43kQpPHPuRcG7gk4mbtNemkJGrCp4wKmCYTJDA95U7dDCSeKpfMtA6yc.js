@@ -8,9 +8,9 @@ let history_3 = " ";
 let history_setting = 0;
 history_setting = $.cookie('History_setting_s');
 if (fgnc !== '' || fgnc !== "Function_History" || fgnc !== "Function_Setting" || fgnc !== "Function_Bookmark") {
-   history_1 = fgnc;
-   history_2 = history_1;
    history_3 = history_2;
+   history_2 = history_1;
+   history_1 = fgnc;
    $.cookie('history_o', 'history_1', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
    $.cookie('history_t', 'history_2', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
    $.cookie('history_th', 'history_3', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
