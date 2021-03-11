@@ -20,7 +20,7 @@ if (typeof history_1 == "undefined") {
 if (typeof history_2 == "undefined") {
    history_2 = " ";
 }
-if (typeof history_2 == "undefined") {
+if (typeof history_3 == "undefined") {
    history_3 = " ";
 }
 
