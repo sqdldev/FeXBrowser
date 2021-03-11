@@ -1,5 +1,20 @@
 let url = location.href;
 let fgnc = url.substr( 60 );;
+let history_1 = 0;
+let history_2 = 0;
+let history_3 = 0;
+history_1 = $.cookie('History_o');
+history_2 = $.cookie('History_t');
+history_3 = $.cookie('History_th');
+if (fgnc !== '') {
+   let history_1 = fgnc;
+   let history_2 = history_1;
+   let history_3 = history_2;
+   $.cookie('history_o', 'history_1', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+   $.cookie('history_t', 'history_2', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+   $.cookie('history_th', 'history_3', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+}
+
 if (fgnc == "Function_Setting") {
    $('#Site_Name').html('FeX Browser - Setting');
    $('#Main_Title').html('Setting');
