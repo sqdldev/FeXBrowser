@@ -11,6 +11,9 @@ if (fgnc !== '' || fgnc !== "Function_History" || fgnc !== "Function_Setting" ||
    $.cookie('history_t', 'history_2', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
    $.cookie('history_th', 'history_3', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
 }
+history_1 = $.cookie('History_o');
+history_2 = $.cookie('History_t');
+history_3 = $.cookie('History_th');
 if (typeof history_1 == "undefined") {
    history_1 = " ";
 }
@@ -20,9 +23,6 @@ if (typeof history_2 == "undefined") {
 if (typeof history_2 == "undefined") {
    history_3 = " ";
 }
-history_1 = $.cookie('History_o');
-history_2 = $.cookie('History_t');
-history_3 = $.cookie('History_th');
 
 if (fgnc == "Function_Setting") {
    $('#Site_Name').html('FeX Browser - Setting');
