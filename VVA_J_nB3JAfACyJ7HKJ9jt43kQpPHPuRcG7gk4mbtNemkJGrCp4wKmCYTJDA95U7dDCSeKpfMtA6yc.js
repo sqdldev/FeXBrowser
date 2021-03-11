@@ -1,8 +1,11 @@
+// 初期化処理
+
 let url = location.href;
 let fgnc = url.substr( 60 );;
-let history_1 = 0;
-let history_2 = 0;
-let history_3 = 0;
+let history_1 = " ";
+let history_2 = " ";
+let history_3 = " ";
+let history_setting = $.cookie('History_setting_s');;
 if (fgnc !== '' || fgnc !== "Function_History" || fgnc !== "Function_Setting" || fgnc !== "Function_Bookmark") {
    history_1 = fgnc;
    history_2 = history_1;
@@ -10,10 +13,10 @@ if (fgnc !== '' || fgnc !== "Function_History" || fgnc !== "Function_Setting" ||
    $.cookie('history_o', 'history_1', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
    $.cookie('history_t', 'history_2', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
    $.cookie('history_th', 'history_3', { expires: 400, domain:'figseu-technology.github.io', path:'/FeXBrowser/'});
+   history_1 = $.cookie('History_o');
+   history_2 = $.cookie('History_t');
+   history_3 = $.cookie('History_th');
 }
-history_1 = $.cookie('History_o');
-history_2 = $.cookie('History_t');
-history_3 = $.cookie('History_th');
 if (typeof history_1 == "undefined") {
    history_1 = " ";
 }
@@ -24,11 +27,13 @@ if (typeof history_3 == "undefined") {
    history_3 = " ";
 }
 
+// データベース
+
 if (fgnc == "Function_Setting") {
    $('#Site_Name').html('FeX Browser - Setting');
    $('#Main_Title').html('Setting');
    $('#Main_Menu').html(' ');
-} else if (fgnc == "Function_History") {
+} else if (fgnc == "Function_History" && ) {
    $('#Site_Name').html('FeX Browser - History');
    $('#Main_Title').html('History');
    $('#Main_Menu').html('<div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_1 + '">　' + history_1 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_2 + '">　' + history_2 + '</a></h4></div><br> </br><div class="s_bar" align="center"><p align="left">　</p><h4><a href="https://figseu-technology.github.io/FeXBrowser/index.html?f=' + history_3 + '">　' + history_3 + '</a></h4></div><br> </br>');
