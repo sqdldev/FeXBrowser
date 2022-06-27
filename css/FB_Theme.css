@@ -38,7 +38,6 @@ input {
 	border: 1px solid #FFFFFF;
 }
 .bar {
-	position: absolute;
 	z-index: 3;
 	width: 80%;
 	background-color: #FFFFFF;
