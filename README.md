@@ -1,4 +1,4 @@
 # FeX Browser
-Figseu Technology が提供する検索エンジン
+Figseu Technology が提供するブラウザ
 
-らしきモノ
+のようななにか
