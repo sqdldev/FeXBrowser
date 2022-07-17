@@ -45,8 +45,7 @@ a {
 	transition: 0.3s;
 	letter-spacing: 1px;
 	color: #7C7C7C;
-	border: 1px solid #7C7C7C;
-	border-radius: 4px;
+	border: 1px solid #FFFFFF;
 }
 .s_bar {
 	position: relative;
