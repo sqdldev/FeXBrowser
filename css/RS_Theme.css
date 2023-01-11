@@ -10,11 +10,13 @@ body {
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
+        margin: 0;
 }
 footer {
 	width: 100%;
 	background-color: #234856;
 	color: #FFFFFF;
+        margin-top:auto;
 }
 a {
 	text-decoration:none;
