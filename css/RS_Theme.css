@@ -17,6 +17,9 @@ footer {
 	background-color: #234856;
 	color: #FFFFFF;
         margin-top:auto;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
 }
 a {
 	text-decoration:none;
