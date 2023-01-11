@@ -1,12 +1,18 @@
 body {
-	background-color: #003063;
 	color: #FFFFFF;
+        background: #000B3F;
+        background-image: url('https://figseu-technology.github.io/FeXBrowser/RollingSky/img/BG20230111_144542.png');
+        background-position: center;
+        background-size: contain;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
         user-select: none;
 	-moz-user-select: none;
 	-webkit-user-select: none;
 	-ms-user-select: none;
 }
 footer {
+	width: 100%;
 	background-color: #234856;
 	color: #FFFFFF;
 }
