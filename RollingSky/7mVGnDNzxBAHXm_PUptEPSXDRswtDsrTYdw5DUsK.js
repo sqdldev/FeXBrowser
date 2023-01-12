@@ -4,7 +4,7 @@ let fgnc = url.substr( 72 );
 if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_2.png)'});
    $('#level-name').html('<img src="STT/STT_1.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_1.png" width="92%">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/one_index.html"><img src="RAA/RAA_1.png" width="92%"></a>');
 } else if (fgnc == 12) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_1.png)'});
    $('#level-name').html('<img src="STT/STT_12.png" width="96%">');
