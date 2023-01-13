@@ -43,8 +43,8 @@ if (fgnc == 1) {
    $('#level-view').html('<img src="RAA/RAA_448.png" width="92%">');
 } else {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_No.png)'});
-   $('#level-name').html('<img src="STT/STT_No.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_No.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_No.png" width="380px">');
+   $('#level-view').html('<img src="RAA/RAA_No.png" width="375px">');
 }
 
 function BGM() {
