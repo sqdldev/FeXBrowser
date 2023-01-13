@@ -3,44 +3,44 @@ let fgnc = url.substr( 72 );
 
 if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_2.png)'});
-   $('#level-name').html('<img src="STT/STT_1.png" width="96%">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/one_index.html"><img src="RAA/RAA_1.png" width="92%"></a>');
+   $('#level-name').html('<img src="STT/STT_1.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/one_index.html?f=1"><img src="RAA/RAA_1.png" width="375px"></a>');
 } else if (fgnc == 12) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_1.png)'});
-   $('#level-name').html('<img src="STT/STT_12.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_12.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_12.png" width="380px">');
+   $('#level-view').html('<img src="RAA/RAA_12.png" width="375px">');
 } else if (fgnc == 14) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_14.png)'});
-   $('#level-name').html('<img src="STT/STT_14.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_14.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_14.png" width="380px">');
+   $('#level-view').html('<img src="RAA/RAA_14.png" width="375px">');
 } else if (fgnc == 36) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_36.png)'});
-   $('#level-name').html('<img src="STT/STT_36.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_36.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_36.png" width="380px">');
+   $('#level-view').html('<img src="RAA/RAA_36.png" width="375px">');
 } else if (fgnc == 39) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_39.png)'});
-   $('#level-name').html('<img src="STT/STT_39.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_39.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_39.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/9-Shell_uTZeYPNhwaAXZBj3ZnpCMR84z.html?f=39"><img src="RAA/RAA_39.png" width="375px"></a>');
 } else if (fgnc == 40) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_40.png)'});
-   $('#level-name').html('<img src="STT/STT_40.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_40.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_40.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/9-Shell_uTZeYPNhwaAXZBj3ZnpCMR84z.html?f=40"><img src="RAA/RAA_40.png" width="375px"></a>');
 } else if (fgnc == 41) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_41.png)'});
-   $('#level-name').html('<img src="STT/STT_41.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_41.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_41.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/9-Shell_uTZeYPNhwaAXZBj3ZnpCMR84z.html?f=41"><img src="RAA/RAA_41.png" width="375px"></a>');
 } else if (fgnc == 42) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_42.png)'});
-   $('#level-name').html('<img src="STT/STT_42.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_42.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_42.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/9-Shell_uTZeYPNhwaAXZBj3ZnpCMR84z.html?f=42"><img src="RAA/RAA_42.png" width="375px"></a>');
 } else if (fgnc == 443) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_443.png)'});
-   $('#level-name').html('<img src="STT/STT_443.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_443.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_443.png" width="380px">');
+   $('#level-view').html('<img src="RAA/RAA_443.png" width="375px">');
 } else if (fgnc == 448) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_448.png)'});
-   $('#level-name').html('<img src="STT/STT_448.png" width="96%">');
-   $('#level-view').html('<img src="RAA/RAA_448.png" width="92%">');
+   $('#level-name').html('<img src="STT/STT_448.png" width="380px">');
+   $('#level-view').html('<img src="RAA/RAA_448.png" width="375px">');
 } else {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_No.png)'});
    $('#level-name').html('<img src="STT/STT_No.png" width="380px">');
