@@ -101,6 +101,14 @@ if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_50.png)'});
    $('#level-name').html('<img src="STT/STT_50.png" width="380px">');
    $('#level-view').html('<a href="https://figseu-technology.github.io/ten_index.html?f=50"><img src="RAA/RAA_50.png" width="375px"></a>');
+} else if (fgnc == 67) {
+   $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_25.png)'});
+   $('#level-name').html('<img src="STT/STT_67.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/seven_index.html?f=67"><img src="RAA/RAA_67.png" width="375px"></a>');
+} else if (fgnc == 68) {
+   $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_68.png)'});
+   $('#level-name').html('<img src="STT/STT_68.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/seven_index.html?f=68"><img src="RAA/RAA_68.png" width="375px"></a>');
 } else if (fgnc == 443) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_443.png)'});
    $('#level-name').html('<img src="STT/STT_443.png" width="380px">');
@@ -166,6 +174,10 @@ function BGM() {
 	$('#st_47').get(0).play();
    } else if (fgnc == 50) {
 	$('#st_50').get(0).play();
+   } else if (fgnc == 67) {
+	$('#st_67').get(0).play();
+   } else if (fgnc == 68) {
+	$('#st_68').get(0).play();
    } else if (fgnc == 443) {
 	$('#st_443').get(0).play();
    } else if (fgnc == 448) {
