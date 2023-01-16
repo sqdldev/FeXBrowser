@@ -45,6 +45,10 @@ if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_18.png)'});
    $('#level-name').html('<img src="STT/STT_19.png" width="380px">');
    $('#level-view').html('<a href="https://figseu-technology.github.io/two_index.html?f=19"><img src="RAA/RAA_19.png" width="375px"></a>');
+} else if (fgnc == 21) {
+   $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_21.png)'});
+   $('#level-name').html('<img src="STT/STT_21.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/five_index.html?f=21"><img src="RAA/RAA_21.png" width="375px"></a>');
 } else if (fgnc == 22) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_28.png)'});
    $('#level-name').html('<img src="STT/STT_22.png" width="380px">');
