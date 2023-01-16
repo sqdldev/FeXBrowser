@@ -9,6 +9,10 @@ if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_4.png)'});
    $('#level-name').html('<img src="STT/STT_4.png" width="380px">');
    $('#level-view').html('<a href="https://figseu-technology.github.io/two_index.html?f=4"><img src="RAA/RAA_4.png" width="375px"></a>');
+} else if (fgnc == 5) {
+   $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_27.png)'});
+   $('#level-name').html('<img src="STT/STT_5.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/two_index.html?f=5"><img src="RAA/RAA_5.png" width="375px"></a>');
 } else if (fgnc == 11) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_11.png)'});
    $('#level-name').html('<img src="STT/STT_11.png" width="380px">');
@@ -45,6 +49,10 @@ if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_25.png)'});
    $('#level-name').html('<img src="STT/STT_25.png" width="380px">');
    $('#level-view').html('<a href="https://figseu-technology.github.io/six_index.html?f=25"><img src="RAA/RAA_25.png" width="375px"></a>');
+} else if (fgnc == 27) {
+   $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_27.png)'});
+   $('#level-name').html('<img src="STT/STT_27.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/six_index.html?f=27"><img src="RAA/RAA_27.png" width="375px"></a>');
 } else if (fgnc == 28) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_28.png)'});
    $('#level-name').html('<img src="STT/STT_28.png" width="380px">');
@@ -128,6 +136,8 @@ function BGM() {
 	$('#st_1').get(0).play();
    } else if (fgnc == 4) {
 	$('#st_4').get(0).play();
+   } else if (fgnc == 5) {
+	$('#st_5').get(0).play();
    } else if (fgnc == 11) {
 	$('#st_11').get(0).play();
    } else if (fgnc == 12) {
@@ -146,6 +156,8 @@ function BGM() {
 	$('#st_23').get(0).play();
    } else if (fgnc == 25) {
 	$('#st_25').get(0).play();
+   } else if (fgnc == 27) {
+	$('#st_27').get(0).play();
    } else if (fgnc == 28) {
 	$('#st_28').get(0).play();
    } else if (fgnc == 29) {
