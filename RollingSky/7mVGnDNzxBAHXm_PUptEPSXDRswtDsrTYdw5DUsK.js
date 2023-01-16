@@ -182,6 +182,8 @@ function BGM() {
 	$('#st_18').get(0).play();
    } else if (fgnc == 19) {
 	$('#st_19').get(0).play();
+   } else if (fgnc == 21) {
+	$('#st_21').get(0).play();
    } else if (fgnc == 22) {
 	$('#st_22').get(0).play();
    } else if (fgnc == 23) {
