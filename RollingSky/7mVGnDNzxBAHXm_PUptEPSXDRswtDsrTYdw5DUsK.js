@@ -273,6 +273,10 @@ if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_483.png)'});
    $('#level-name').html('<img src="STT/STT_483.png" width="380px">');
    $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/483_フェブリアスグリーナ.rsr"><img src="RAA/RAA_483.png" width="375px"></a>');
+} else if (fgnc == 'F1') {
+   $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_14.png)'});
+   $('#level-name').html('<img src="STT/STT_F1.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR/asdfghjkl.rsr"><img src="RAA/RAA_F1.png" width="375px"></a>');
 } else {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_No.png)'});
    $('#level-name').html('<img src="STT/STT_No.png" width="380px">');
