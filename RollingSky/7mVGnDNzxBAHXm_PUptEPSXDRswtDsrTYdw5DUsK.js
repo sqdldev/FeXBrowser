@@ -294,6 +294,8 @@ function BGM() {
 	$('#st_4').get(0).play();
    } else if (fgnc == 5) {
 	$('#st_5').get(0).play();
+   } else if (fgnc == 6) {
+	$('#st_6').get(0).play();
    } else if (fgnc == 8) {
 	$('#st_8').get(0).play();
    } else if (fgnc == 9) {
@@ -418,6 +420,8 @@ function BGM() {
 	$('#st_482').get(0).play();
    } else if (fgnc == 483) {
 	$('#st_483').get(0).play();
+   } else if (fgnc == 'F1') {
+	$('#st_F1').get(0).play();
    } else {
 	$('#st_No').get(0).play();
    }
