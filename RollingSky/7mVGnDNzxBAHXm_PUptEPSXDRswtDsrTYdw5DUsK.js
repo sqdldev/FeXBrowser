@@ -248,31 +248,31 @@ if (fgnc == 1) {
 } else if (fgnc == 338) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_338.png)'});
    $('#level-name').html('<img src="STT/STT_338.png" width="380px">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/338_D.2388.rsr"><img src="RAA/RAA_338.png" width="375px"></a>');
+   $('#level-view').html('<a href="https://ouo.io/jnb6f0"><img src="RAA/RAA_338.png" width="375px"></a>');
 } else if (fgnc == 443) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_443.png)'});
    $('#level-name').html('<img src="STT/STT_443.png" width="380px">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/443_Thunder Island.rsr"><img src="RAA/RAA_443.png" width="375px"></a>');
+   $('#level-view').html('<a href="https://ouo.io/6pbo0Q"><img src="RAA/RAA_443.png" width="375px"></a>');
 } else if (fgnc == 448) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_448.png)'});
    $('#level-name').html('<img src="STT/STT_448.png" width="380px">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/448_Shining Rain.rsr"><img src="RAA/RAA_448.png" width="375px"></a>');
+   $('#level-view').html('<a href="https://ouo.io/yEw543"><img src="RAA/RAA_448.png" width="375px"></a>');
 } else if (fgnc == 469) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_469.png)'});
    $('#level-name').html('<img src="STT/STT_469.png" width="380px">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/469_Dance of the Wilding.rsr"><img src="RAA/RAA_469.png" width="375px"></a>');
+   $('#level-view').html('<a href="https://ouo.io/jEyNOk"><img src="RAA/RAA_469.png" width="375px"></a>');
 } else if (fgnc == 471) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_471.png)'});
    $('#level-name').html('<img src="STT/STT_471.png" width="380px">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/471_To Catch a Dream.rsr"><img src="RAA/RAA_471.png" width="375px"></a>');
+   $('#level-view').html('<a href="https://ouo.io/QjG1gT"><img src="RAA/RAA_471.png" width="375px"></a>');
 } else if (fgnc == 482) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_482.png)'});
    $('#level-name').html('<img src="STT/STT_482.png" width="380px">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/482_Generic.rsr"><img src="RAA/RAA_482.png" width="375px"></a>');
+   $('#level-view').html('<a href="https://ouo.io/53s16Ln"><img src="RAA/RAA_482.png" width="375px"></a>');
 } else if (fgnc == 483) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_483.png)'});
    $('#level-name').html('<img src="STT/STT_483.png" width="380px">');
-   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR_S/483_フェブリアスグリーナ.rsr"><img src="RAA/RAA_483.png" width="375px"></a>');
+   $('#level-view').html('<a href="https://ouo.io/ErMMAar"><img src="RAA/RAA_483.png" width="375px"></a>');
 } else if (fgnc == 'F1') {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_14.png)'});
    $('#level-name').html('<img src="STT/STT_F1.png" width="380px">');
