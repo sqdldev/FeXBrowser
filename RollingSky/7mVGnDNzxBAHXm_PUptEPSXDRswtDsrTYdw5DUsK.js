@@ -285,6 +285,10 @@ if (fgnc == 1) {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_14.png)'});
    $('#level-name').html('<img src="STT/STT_F1.png" width="380px">');
    $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR/asdfghjkl.rsr"><img src="RAA/RAA_F1.png" width="375px"></a>');
+} else if (fgnc == 'F2') {
+   $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_F2.png)'});
+   $('#level-name').html('<img src="STT/STT_F2.png" width="380px">');
+   $('#level-view').html('<a href="https://figseu-technology.github.io/RSR/DGDR/small town.rsr"><img src="RAA/RAA_F2.png" width="375px"></a>');
 } else {
    $('body').css({'background-image':'url(https://figseu-technology.github.io/FeXBrowser/RollingSky/RSBG/RSBG_No.png)'});
    $('#level-name').html('<img src="STT/STT_No.png" width="380px">');
@@ -434,6 +438,8 @@ function BGM() {
 	$('#st_483').get(0).play();
    } else if (fgnc == 'F1') {
 	$('#st_F1').get(0).play();
+   } else if (fgnc == 'F2') {
+	$('#st_F2').get(0).play();
    } else {
 	$('#st_No').get(0).play();
    }
